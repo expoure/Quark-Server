@@ -17,6 +17,11 @@ public class QuarkServer {
     public static void main(String[] args) {
         // TODO code application logic here
         
+        // abrir o servidor na porta 2335
+        
+        // gerir todos os sockets de entrada e saída de dados no servidor
+        
+        // cria e gere SQL DB
     }
     
 }
