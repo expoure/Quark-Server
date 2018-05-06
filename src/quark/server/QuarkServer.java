@@ -27,8 +27,9 @@ public class QuarkServer {
         } catch (IOException ex) {
             Logger.getLogger(QuarkServer.class.getName()).log(Level.SEVERE, null, ex);
         }
-        
-        System.out.println("Alterações do miguel");
+
+        System.out.println("HELO WORLD");
+
     }
     
 }
