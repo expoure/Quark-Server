@@ -9,19 +9,24 @@ package quark.server;
  *
  * @author Miguel Dinis
  */
+import java.io.IOException;
+import java.net.ServerSocket;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
 public class QuarkServer {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
-        
-        // abrir o servidor na porta 2335
-        
-        // gerir todos os sockets de entrada e saída de dados no servidor
-        
-        // cria e gere SQL DB
+        try {
+            // TODO code application logic here
+
+            ServerSocket sock = new ServerSocket(80);
+        } catch (IOException ex) {
+            Logger.getLogger(QuarkServer.class.getName()).log(Level.SEVERE, null, ex);
+        }
     }
     
 }
